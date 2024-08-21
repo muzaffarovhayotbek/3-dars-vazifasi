@@ -1,0 +1,364 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import "./style.min.css";
+
+.example {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;* {
+padding: 0;
+margin: 0;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+body {
+font-family: "Heebo", sans-serif;
+}
+
+/* HEADER */
+.header {
+margin-top: 27px;
+margin-bottom: 140px;
+text-align: right;
+}
+
+.container {
+max-width: 1152px;
+width: 100%;
+margin: 0 auto;
+}
+
+.ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.ul-li {
+display: inline-block;
+margin-left: 20px;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.ul-li:hover {
+background-color: black;
+color: red;
+cursor: pointer;
+-webkit-transition: 2s;
+-o-transition: 2s;
+transition: 2s;
+font-size: 30px;
+}
+
+.nav {
+margin-top: 158px;
+margin-bottom: 95px;
+}
+
+.nav__container {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+.nav-title {
+font-size: 44px;
+font-weight: 700;
+line-height: 60px;
+color: #21243d;
+}
+.nav-title:hover {
+color: maroon;
+cursor: pointer;
+font-size: 50px;
+-webkit-transition: 1.5s;
+-o-transition: 1.5s;
+transition: 1.5s;
+}
+.nav-desc {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+margin-top: 40px;
+}
+
+.nav-desc:hover {
+color: saddlebrown;
+cursor: pointer;
+font-size: 25px;
+-webkit-transition: 1s;
+-o-transition: 1s;
+transition: 1s;
+}
+
+.nav-button {
+width: 208px;
+height: 47px;
+top: 477px;
+left: 148px;
+border-radius: 2px;
+margin-top: 38px;
+background-color: #ff6464;
+border: none;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+color: #ffffff;
+padding: 9px 21px 17px 20px;
+}
+
+.inspect {
+background-color: #edf7fa;
+padding-top: 7px;
+padding-bottom: 32px;
+}
+
+.to {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+margin-bottom: 20px;
+}
+
+.to h4 {
+font-size: 22px;
+font-weight: 400;
+line-height: 60px;
+color: #21243d;
+}
+.to h4:hover {
+color: darkorange;
+cursor: pointer;
+-webkit-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+font-size: 27px;
+}
+
+.to a {
+text-decoration: none;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.5px;
+color: #00a8cc;
+}
+.to a:hover {
+color: red;
+cursor: pointer;
+-webkit-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+font-size: 20px;
+}
+.two {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+
+.hard {
+background-color: #fff;
+-webkit-box-shadow: 0px 4px 10px 0px #bbe1fa40;
+        box-shadow: 0px 4px 10px 0px #bbe1fa40;
+padding-left: 23px;
+padding-right: 21px;
+border-radius: 4px;
+}
+
+.perfect {
+background-color: #fff;
+-webkit-box-shadow: 0px 4px 10px 0px #bbe1fa40;
+        box-shadow: 0px 4px 10px 0px #bbe1fa40;
+padding-left: 23px;
+padding-right: 21px;
+border-radius: 4px;
+}
+
+.two h2 {
+margin-top: 24px;
+margin-bottom: 17px;
+font-size: 26px;
+font-weight: 700;
+line-height: 39px;
+color: #21243d;
+}
+
+.two h6 {
+margin-bottom: 11px;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: #21243d;
+}
+
+.two p {
+margin-bottom: 7px;
+color: #21243d;
+font-size: 16px;
+font-weight: 400;
+line-height: 23.5px;
+}
+
+.section {
+margin-top: 15px;
+margin-bottom: 22px;
+}
+
+.section h2 {
+font-size: 22px;
+font-weight: 400;
+line-height: 60px;
+color: #21243d;
+}
+.section h2:hover {
+color: rgb(32, 66, 153);
+cursor: pointer;
+-webkit-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+font-size: 27px;
+}
+
+.item {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+margin-bottom: 20px;
+border-bottom: 1px solid #ddd;
+padding-bottom: 20px;
+}
+
+.item img {
+width: 246px;
+height: 180px;
+margin-right: 20px;
+}
+
+.content {
+-webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+}
+
+.content h2 {
+font-size: 30px;
+font-weight: 700;
+line-height: 44.06px;
+color: #21243d;
+}
+.content h2:hover {
+font-size: 40px;
+color: rgb(35, 99, 39);
+cursor: pointer;
+-webkit-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+}
+.content span {
+width: 62px;
+height: 25px;
+top: 1141px;
+left: 410px;
+text-align: center;
+border-radius: 16px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+
+display: block;
+font-size: 18px;
+color: #888;
+margin-bottom: 10px;
+background-color: #142850;
+}
+
+.content p {
+font-size: 16px;
+font-weight: 400;
+line-height: 23.5px;
+color: #21243d;
+}
+
+.content p:hover {
+font-size: 25px;
+cursor: pointer;
+color: rgb(102, 92, 155);
+-webkit-transition: 1s ease;
+-o-transition: 1s ease;
+transition: 1s ease;
+}
+/* footer part */
+.footer {
+margin-top: 134px;
+margin-bottom: 26px;
+}
+
+.footer__container {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+gap: 35px;
+}
+
+.footer img {
+max-width: 100px;
+height: auto;
+}
+
+.copyright p {
+font-size: 14px;
+font-weight: 400;
+line-height: 20.56px;
+text-align: center;
+}
+
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+
+  background: -o-linear-gradient(top, white, black);
+
+  background: linear-gradient(to bottom, white, black);
+}
