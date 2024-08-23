@@ -40,7 +40,9 @@
     width: 100%;
     margin: 0 auto;
   }
-
+.header__container .ul-li a{
+  text-decoration: none;
+}
   .ul {
     text-decoration: none;
     margin: 0;
