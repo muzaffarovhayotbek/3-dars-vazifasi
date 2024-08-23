@@ -40,9 +40,9 @@
     width: 100%;
     margin: 0 auto;
   }
-.header__container .ul-li a{
-  text-decoration: none;
-}
+  .header__container .ul-li a {
+    text-decoration: none;
+  }
   .ul {
     text-decoration: none;
     margin: 0;
@@ -89,7 +89,7 @@
     margin-top: 40px;
   }
 
-  .nav-button {
+  .nav__container a {
     width: 208px;
     height: 47px;
     top: 477px;
@@ -103,8 +103,13 @@
     line-height: 30px;
     color: #ffffff;
     padding: 9px 21px 17px 20px;
+    display: inline-block;
   }
+  .nav__container .nav-button:hover {
+    box-shadow: 1px 2px 3px black inset;
+    transform: scale(0.8, 0.9 );
 
+  }
   .inspect {
     background-color: #edf7fa;
     padding-top: 7px;
