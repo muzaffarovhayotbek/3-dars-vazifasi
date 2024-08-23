@@ -107,8 +107,7 @@
   }
   .nav__container .nav-button:hover {
     box-shadow: 1px 2px 3px black inset;
-    transform: scale(0.8, 0.9 );
-
+    transform: scale(0.8, 0.9);
   }
   .inspect {
     background-color: #edf7fa;
@@ -323,7 +322,9 @@
     max-width: 100px;
     height: auto;
   }
-
+  .footer__container img:hover {
+    transform: rotate(20deg);
+  }
   .copyright p {
     font-size: 14px;
     font-weight: 400;
